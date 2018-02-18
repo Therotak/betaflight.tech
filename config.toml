@@ -12,6 +12,17 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 
+[languages]
+[languages.en]
+title = "Betaflight mini Site"
+weight = 1
+linkedin = "english-link"
+
+[languages.fr]
+title = "Mini Site Betaflight"
+weight = 2
+linkedin = "lien-francais"
+
 [menu]
 
 # Main menu
@@ -42,7 +53,7 @@ paginate = 10
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/betaflight/betaflight/releases"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
 [[menu.topbar]]

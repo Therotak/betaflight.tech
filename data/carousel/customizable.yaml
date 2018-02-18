@@ -1,8 +1,9 @@
 weight: 4
-title: "Easy to customize"
+title: "Free and Open Source"
 description: >
   <ul class="list-style-none">
-    <li>7 preprepared colour variations.</li>
-    <li>Easily to change fonts</li>
+    <li>Community maintened</li>
+    <li>Wiki Documented</li>
+    <li>Open Source Code on Github</li>
   </ul>
-image: "img/carousel/template-easy-code.png"
+image: "img/carousel/bf_open_source_git.png"
