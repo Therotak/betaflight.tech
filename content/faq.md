@@ -6,34 +6,35 @@ keywords = ["FAQ","How do I","questions","what if"]
 
 Betaflight is a OpenSource Project to get the most of your Quadcopter or Plane. Enjoy FPV and have the latest features available on a whole variation of flightcontrolers.
 
-## 1. Where to download the latest releases and also see the Changelogs?
+## 1. Where to download the latest releases and also see the changelogs?
 
-You can always find the latest releases on our [Github releases Page](https://github.com/betaflight/betaflight/releases). There you can also see the latest changelogs.
+The [Downloads](/downloads/) entry menu can answer your question. Otherwise You can always find the latest releases on our [Github releases Page](https://github.com/betaflight/betaflight/releases). There you can also see the latest changelogs.
 
-## 2. WHAT ARE THE RATES?
+## 2. Which flightcontrollers are Betaflight compatible ?
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+You will find a complete and up to date list in the flash section of the Betaflight configurator. Otherwise you can see the list on the [Github Release page](https://github.com/betaflight/betaflight/releases).
 
-## 3. DO YOU SEND OVERSEAS?
+## 3. Where can I find tutos or documents about Betaflight flash and use ?
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+Reading the [wiki pages](https://github.com/betaflight/betaflight/wiki) seems to be the best solution to begin. There are a lot of docs written by users and a lot of videos on Youtube. But be sure the content match with your Betaflight's firmware version.
 
-## 4. WHY ARE YOU MORE EXPENSIVE THAN OTHERS?
+## 4. My flightcontroller is not seen by Betaflight configurator (Windows)
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+Most of time, there is a problem with the drivers. Be sure to install and use the latest versions :
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+* [CP210x Drivers](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers)
+* [STM USB VCP Drivers](http://www.st.com/en/development-tools/stsw-stm32102.html)
+* [Zadig](http://zadig.akeo.ie/)
 
-## 5. ANOTHER IMPORTANT QUESTION
+## 5. I am very interesting / I would be enjoy to help the Betaflight community
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+There are many ways to help Betaflight community.
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+* Answering other users questions on the forums, IRC, and [slack](http://www.betaflight.ch/)
+* Documentation updates and corrections.
+* Bug reporting & fixes.
+* New feature ideas & suggestions.
 
 ---
 
-> In case you haven't found the answer for your question please feel free to contact us, our customer support will be happy to help you.
+> In case you haven't found the answer for your question please feel free to [contact](/contact/) us, our customer support will be happy to help you.
