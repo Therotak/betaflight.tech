@@ -3,118 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://schwarz-muenchen.de/blog/2015/10/10/migrate-from-jekyll/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>https://betaflight.fr/blog/2018/02/16/bf3-3_4/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/blog/2015/10/02/linked-post/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://betaflight.fr/blog/2018/02/16/bf3-3_1/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/blog/2015/09/17/go-is-for-lovers/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <loc>https://betaflight.fr/blog/2018/02/16/bf3-3_2/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/blog/2015/08/03/hugo-is-for-lovers/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
+    <loc>https://betaflight.fr/blog/2018/02/16/bf3-3_3/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/blog/2015/06/24/creating-a-new-theme/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
+    <loc>https://betaflight.fr/downloads/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>https://betaflight.fr/tags/3.3/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/blog/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>https://betaflight.fr/tags/betaflight/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/categories/</loc>
+    <loc>https://betaflight.fr/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/contact/</loc>
-  </url>
-  
-  <url>
-    <loc>https://schwarz-muenchen.de/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>https://schwarz-muenchen.de/tags/go/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
+    <loc>https://betaflight.fr/blog/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/tags/golang/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://betaflight.fr/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/tags/hugo/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://betaflight.fr/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://betaflight.fr/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://betaflight.fr/tags/firmware/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/tags/ipsum/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <loc>https://betaflight.fr/tags/release/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://schwarz-muenchen.de/categories/lorem/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://schwarz-muenchen.de/tags/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://schwarz-muenchen.de/categories/programming/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://schwarz-muenchen.de/categories/pseudo/</loc>
-    <lastmod>2015-08-03T13:39:46+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://schwarz-muenchen.de/categories/starting/</loc>
-    <lastmod>2015-06-24T13:50:46+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://schwarz-muenchen.de/tags/</loc>
-    <lastmod>2015-09-17T13:47:08+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://schwarz-muenchen.de/tags/theme/</loc>
-    <lastmod>2015-10-02T21:49:20+02:00</lastmod>
+    <loc>https://betaflight.fr/tags/</loc>
+    <lastmod>2018-02-16T21:49:20+02:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -2,7 +2,7 @@ weight: 3
 title: "Betaflight Blackbox explorer"
 description: >
   <ul class="list-style-none">
-    <li>Flight logs analyze</li>
+    <li>Flight logs analysis</li>
     <li>Chrome app or standalone</li>
     <li>Mix flight logs and videos</li>
   </ul>

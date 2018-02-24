@@ -1,4 +1,4 @@
 weight: 1
 title: "Suporting almost every flight controller"
-description: "<p>Almost ever flight controller can be flashed with the matchting target for Betaflight. Download it from our Github release Page</p>"
+description: "<p>Almost <strong>ever</strong> flight controller can be flashed with the matchting target for Betaflight. Download it from our Github release Page</p>"
 image: "img/carousel/bff4.png"

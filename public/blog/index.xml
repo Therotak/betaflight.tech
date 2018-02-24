@@ -1,70 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Betaflight Tech</title>
-    <link>https://schwarz-muenchen.de/blog/</link>
-    <description>Recent content in Blogs on Betaflight Tech</description>
+    <title>Blogs on Betaflight mini Site</title>
+    <link>https://betaflight.fr/blog/</link>
+    <description>Recent content in Blogs on Betaflight mini Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015 - 2016, YourCompany; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 10 Oct 2015 13:07:31 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2018 21:49:20 +0200</lastBuildDate>
     
-	<atom:link href="https://schwarz-muenchen.de/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://betaflight.fr/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Migrate from Jekyll</title>
-      <link>https://schwarz-muenchen.de/blog/2015/10/10/migrate-from-jekyll/</link>
-      <pubDate>Sat, 10 Oct 2015 13:07:31 +0200</pubDate>
+      <title>Betaflight 3.3 Advanced filters</title>
+      <link>https://betaflight.fr/blog/2018/02/16/bf3-3_4/</link>
+      <pubDate>Fri, 16 Feb 2018 21:49:20 +0200</pubDate>
       
-      <guid>https://schwarz-muenchen.de/blog/2015/10/10/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://betaflight.fr/blog/2018/02/16/bf3-3_4/</guid>
+      <description>Betaflight 3.3 Release will be ready for March 1st. New feature : Advanced filters New advanced filters have been added to Betaflight 3.3.
+Advanced filters are not working with all flight controllers and must be activate with caution.
+Fast Kalman has been replaced by Biquad RC+FIR2. It s now more easy to activate and use.
+You just need to specify cutoff Hz parameter directly. Flightcontroller with F4 processor is advised.</description>
     </item>
     
     <item>
-      <title>Linked post</title>
-      <link>https://schwarz-muenchen.de/blog/2015/10/02/linked-post/</link>
-      <pubDate>Fri, 02 Oct 2015 21:49:20 +0200</pubDate>
+      <title>Betaflight 3.3 Anti-Taz</title>
+      <link>https://betaflight.fr/blog/2018/02/16/bf3-3_1/</link>
+      <pubDate>Fri, 16 Feb 2018 21:49:20 +0200</pubDate>
       
-      <guid>https://schwarz-muenchen.de/blog/2015/10/02/linked-post/</guid>
-      <description>I&amp;rsquo;m a linked post in the menu. You can add other posts by adding the following line to the frontmatter:
-menu = &amp;quot;main&amp;quot;  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nulla, vestibulum vel auctor sed, posuere eu lorem. Aliquam consequat augue ut accumsan mollis. Suspendisse malesuada sodales tincidunt. Vivamus sed erat ac augue bibendum porta sed id ipsum. Ut mollis mauris eget ligula sagittis cursus. Aliquam id pharetra tellus.</description>
+      <guid>https://betaflight.fr/blog/2018/02/16/bf3-3_1/</guid>
+      <description>Betaflight 3.3 Release will be ready for March 1st. New feature : Runaway take off prevention (anti-taz) This feature will prevent uncontrollable acceleration (&amp;lsquo;tasmanian devil&amp;rsquo;) when the craft is armed with misconfigured motor outputs or props on the wrong way, by disarming the craft if such a configuration is detected.
+It will also cause disarms when throttling up quickly on the bench with props off.
+If you get unwanted disarms right after arming, use the parameters:</description>
     </item>
     
     <item>
-      <title>Go is for lovers</title>
-      <link>https://schwarz-muenchen.de/blog/2015/09/17/go-is-for-lovers/</link>
-      <pubDate>Thu, 17 Sep 2015 13:47:08 +0200</pubDate>
+      <title>Betaflight 3.3 Disarmed while connected</title>
+      <link>https://betaflight.fr/blog/2018/02/16/bf3-3_2/</link>
+      <pubDate>Fri, 16 Feb 2018 21:49:20 +0200</pubDate>
       
-      <guid>https://schwarz-muenchen.de/blog/2015/09/17/go-is-for-lovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>https://betaflight.fr/blog/2018/02/16/bf3-3_2/</guid>
+      <description>Betaflight 3.3 Release will be ready for March 1st. New feature : Arming disabled while connected to Betaflight configurator Arming is now disabled when the flight controller is connected to the Betaflight configurator.
+This was added in order to keep users from accidentally arming their craft when testing their RX / mode switches with a battery connected.
+In order to enable arming for bench testing, go to the &amp;lsquo;Motors&amp;rsquo; tab and enable the &amp;lsquo;Motor test mode&amp;rsquo; switch (REMOVE ALL PROPELLERS FIRST);</description>
     </item>
     
     <item>
-      <title>Hugo is for lovers</title>
-      <link>https://schwarz-muenchen.de/blog/2015/08/03/hugo-is-for-lovers/</link>
-      <pubDate>Mon, 03 Aug 2015 13:39:46 +0200</pubDate>
+      <title>Betaflight 3.3 FPort</title>
+      <link>https://betaflight.fr/blog/2018/02/16/bf3-3_3/</link>
+      <pubDate>Fri, 16 Feb 2018 21:49:20 +0200</pubDate>
       
-      <guid>https://schwarz-muenchen.de/blog/2015/08/03/hugo-is-for-lovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Creating a new theme</title>
-      <link>https://schwarz-muenchen.de/blog/2015/06/24/creating-a-new-theme/</link>
-      <pubDate>Wed, 24 Jun 2015 13:50:46 +0200</pubDate>
-      
-      <guid>https://schwarz-muenchen.de/blog/2015/06/24/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://betaflight.fr/blog/2018/02/16/bf3-3_3/</guid>
+      <description>Betaflight 3.3 Release will be ready for March 1st. New feature : support for the FrSky FPort protocol FPort is a new RC protocol that was developed by FrSky in collaboration with Betaflight.
+It has a number of improvements over existing protocols used by FrSky hardware:
+ only one serial connection is required, RC control information, telemetry (including MSP tunneling), and RSSI are all sent over this connection; the serial connection uses 115200, N81, making it easier to implement on hardware that has limited support for &amp;lsquo;exotic&amp;rsquo; modes; it is uninverted (not possible with the test firmware for existing RX).</description>
     </item>
     
   </channel>
