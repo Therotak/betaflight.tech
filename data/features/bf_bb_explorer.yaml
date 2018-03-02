@@ -1,0 +1,14 @@
+weight: 3
+name: "Betaflight blackbox explorer"
+icon: "fa fa-bar-chart"
+description: "#### Chrome App
+
+
+The easiest way to get Betaflight blackbox explorer is to setup the [chromeapp](https://chrome.google.com/webstore/detail/betaflight-blackbox-explo/canpiagfkeefejklcojkhojdijglnghc).
+
+
+--------------------------------------------------
+
+#### Other ways
+
+You can read the other ways to setup the [Betaflight blackbox explorer on Github](https://github.com/betaflight/betaflight)."

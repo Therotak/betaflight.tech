@@ -1,0 +1,14 @@
+weight: 1
+name: "Betaflight Firmware"
+icon: "fa fa-microchip"
+description: "#### Firmwares
+
+
+Firmwares (hex) files can be downloaded with the configurator or [on Github](https://github.com/betaflight/betaflight/releases).
+
+
+--------------------------------------------------
+
+#### Sources
+
+You can compile your own firmware binary, modify and get sources [on Betaflight Github](https://github.com/betaflight/betaflight)."

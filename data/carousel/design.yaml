@@ -1,9 +1,0 @@
-weight: 3
-title: "Betaflight Blackbox explorer"
-description: >
-  <ul class="list-style-none">
-    <li>Flight logs analysis</li>
-    <li>Chrome app or standalone</li>
-    <li>Mix flight logs and videos</li>
-  </ul>
-image: "img/carousel/bf_bb_explorer_screenshot.png"

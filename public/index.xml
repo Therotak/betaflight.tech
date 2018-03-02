@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Betaflight mini Site</title>
+    <title>Betaflight.tech Site</title>
     <link>https://betaflight.fr/</link>
-    <description>Recent content on Betaflight mini Site</description>
+    <description>Recent content on Betaflight.tech Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Feb 2018 21:49:20 +0200</lastBuildDate>
@@ -21,39 +21,6 @@
 Advanced filters are not working with all flight controllers and must be activate with caution.
 Fast Kalman has been replaced by Biquad RC+FIR2. It s now more easy to activate and use.
 You just need to specify cutoff Hz parameter directly. Flightcontroller with F4 processor is advised.</description>
-    </item>
-    
-    <item>
-      <title>Betaflight 3.3 Anti-Taz</title>
-      <link>https://betaflight.fr/blog/2018/02/16/bf3-3_1/</link>
-      <pubDate>Fri, 16 Feb 2018 21:49:20 +0200</pubDate>
-      
-      <guid>https://betaflight.fr/blog/2018/02/16/bf3-3_1/</guid>
-      <description>Betaflight 3.3 Release will be ready for March 1st. New feature : Runaway take off prevention (anti-taz) This feature will prevent uncontrollable acceleration (&amp;lsquo;tasmanian devil&amp;rsquo;) when the craft is armed with misconfigured motor outputs or props on the wrong way, by disarming the craft if such a configuration is detected.
-It will also cause disarms when throttling up quickly on the bench with props off.
-If you get unwanted disarms right after arming, use the parameters:</description>
-    </item>
-    
-    <item>
-      <title>Betaflight 3.3 Arming disabled while connected</title>
-      <link>https://betaflight.fr/blog/2018/02/16/bf3-3_2/</link>
-      <pubDate>Fri, 16 Feb 2018 21:49:20 +0200</pubDate>
-      
-      <guid>https://betaflight.fr/blog/2018/02/16/bf3-3_2/</guid>
-      <description>Betaflight 3.3 Release will be ready for March 1st. New feature : Arming disabled while connected to Betaflight configurator Arming is now disabled when the flight controller is connected to the Betaflight configurator.
-This was added in order to keep users from accidentally arming their craft when testing their RX / mode switches with a battery connected.
-In order to enable arming for bench testing, go to the &amp;lsquo;Motors&amp;rsquo; tab and enable the &amp;lsquo;Motor test mode&amp;rsquo; switch (REMOVE ALL PROPELLERS FIRST);</description>
-    </item>
-    
-    <item>
-      <title>Betaflight 3.3 FPort</title>
-      <link>https://betaflight.fr/blog/2018/02/16/bf3-3_3/</link>
-      <pubDate>Fri, 16 Feb 2018 21:49:20 +0200</pubDate>
-      
-      <guid>https://betaflight.fr/blog/2018/02/16/bf3-3_3/</guid>
-      <description>Betaflight 3.3 Release will be ready for March 1st. New feature : support for the FrSky FPort protocol FPort is a new RC protocol that was developed by FrSky in collaboration with Betaflight.
-It has a number of improvements over existing protocols used by FrSky hardware:
- only one serial connection is required, RC control information, telemetry (including MSP tunneling), and RSSI are all sent over this connection; the serial connection uses 115200, N81, making it easier to implement on hardware that has limited support for &amp;lsquo;exotic&amp;rsquo; modes; it is uninverted (not possible with the test firmware for existing RX).</description>
     </item>
     
     <item>

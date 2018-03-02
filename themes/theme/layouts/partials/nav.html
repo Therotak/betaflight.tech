@@ -30,7 +30,7 @@
                       {{ end }}
                     </ul>
                     {{ else }}
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}" target="_blank" style="opacity: 1;" title="{{ .Name }}">{{ .Pre }}</a>
                     {{ end  }}
                   </li>
                   {{ end }}
