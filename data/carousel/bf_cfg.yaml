@@ -1,0 +1,9 @@
+weight: 2
+title: "Betaflight Configurator"
+description: >
+  <ul class="list-style-none">
+     <li>Evolutive GUI / CLI</li>
+     <li>Multi OS : Windows, Mac, Linux</li>
+     <li>Multiple Languages Supported</li>
+   </ul>
+image: "img/carousel/bf_screens.png"

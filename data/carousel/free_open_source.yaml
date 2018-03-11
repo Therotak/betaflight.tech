@@ -1,0 +1,9 @@
+weight: 4
+title: "Free and Open Source"
+description: >
+  <ul class="list-style-none">
+    <li>Community maintened</li>
+    <li>Wiki Documented</li>
+    <li>Open Source Code on Github</li>
+  </ul>
+image: "img/carousel/bf_open_source_git.png"

@@ -1,0 +1,14 @@
+weight: 2
+name: "Betaflight Configurator"
+icon: "fa fa-laptop"
+description: "#### Binaries
+
+
+Binaries for Windows, Mac and Linux can be downloaded [on the Github](https://github.com/betaflight/betaflight-configurator/releases).
+
+
+--------------------------------------------------
+
+#### Sources
+
+[Configurator's sources on Github](https://github.com/betaflight/betaflight-configurator)."

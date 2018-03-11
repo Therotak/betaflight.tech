@@ -1,69 +1,95 @@
-baseurl = "https://schwarz-muenchen.de/"
+baseurl = "https://betaflight.fr/"
 title = "Betaflight Tech"
 theme = "theme"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+# disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
 # Define the number of posts per page
 paginate = 10
 
+[languages]
+[languages.en]
+title = "Betaflight.tech Site"
+weight = 1
+linkedin = "english-link"
+
 [menu]
-
 # Main menu
-
 [[menu.main]]
-    name = "Home"
-    url  = "/"
+    name = "Github"
+    url = "https://github.com/betaflight"
+    pre = "<i class='fa fa-2x fa-github'></i>"
     weight = 1
 
 [[menu.main]]
-    name = "News"
-    url  = "/blog/"
+    name = "Slack"
+    url  = "http://www.betaflight.ch"
+    pre = "<i class='fa fa-2x fa-slack'></i>"
     weight = 2
 
-[[menu.main]]
-    name = "FAQ"
-    identifier = "faq"
-    url  = "/faq/"
-    weight = 3
+# [[menu.main]]
+#     name = "Downloads"
+#     url  = "/downloads/"
+#     weight = 3
 
-[[menu.main]]
-    name = "Contact"
-    url  = "/contact/"
-    weight = 4
+# [[menu.main]]
+#     name = "FAQ"
+#     identifier = "faq"
+#     url  = "/faq/"
+#     weight = 4
+#
+# [[menu.main]]
+#     name = "Contact"
+#     url  = "/contact/"
+#     weight = 5
+
+# ############################## French #################################
+# [languages.fr]
+# title = "Mini Site Betaflight"
+# weight = 2
+# linkedin = "lien-francais"
+# # Main menu
+# [[languages.fr.menu.main]]
+#     name = "Accueil"
+#     url  = "/"
+#     weight = 1
+#
+# [[languages.fr.menu.main]]
+#     name = "Niouzes"
+#     url  = "/blog/"
+#     weight = 2
+#
+# [[languages.fr.menu.main]]
+#     name = "FAQ"
+#     identifier = "faq"
+#     url  = "/faq/"
+#     weight = 3
+#
+# [[languages.fr.menu.main]]
+#     name = "Contact"
+#     url  = "/contact/"
+#     weight = 4
+#
+# ###########################################################################
 
 # Top bar social links menu
 
 [[menu.topbar]]
     weight = 1
     name = "GitHub"
-    url = "https://github.com/devcows/hugo-universal-theme"
+    url = "https://github.com/betaflight"
     pre = "<i class='fa fa-2x fa-github'></i>"
 
-[[menu.topbar]]
-    weight = 2
-    name = "Facebook"
-    url = "http://facebook.com"
-    pre = "<i class='fa fa-2x fa-facebook'></i>"
-
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fa fa-2x fa-twitter'></i>"
-
-
-
 [params]
-    viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
+    #viewMorePostLink = "/blog/"
+    author = "Betaflight"
+    defaultKeywords = ["betaflight", "firmware", "software", "flash", "flight"]
+    defaultDescription = "Betaflight Site links to firmwares, configurator, softwares"
 
     # Google Maps API key (if not set will default to not passing a key.)
     #googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
@@ -86,13 +112,13 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     #email = "your@email.com"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "Betaflight is a community maintened bundle of complete softwares."
+    copyright = "Copyright (c) 2018, Betaflight.tech, all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
-    logo = "img/bflogo.png"
+    logo = "static/img/bflogo.png"
     #address = """<p><strong></strong>
 
 
@@ -102,18 +128,14 @@ paginate = 10
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us at Github or in our Slack (FAQ)</p>
-      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
-      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
-      </p>
-      """
+    enable = false
+    text = """<p class="hidden-sm hidden-xs">Contact us at <a href="https://github.com/betaflight/betaflight">Github</a> or in our <a href="http://www.betaflight.ch/">Slack</a></p>"""
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
-    categories = true
-    tags = true
-    search = true
+    categories = false
+    tags = false
+    search = false
 
 [params.carousel]
     enable = true
@@ -152,6 +174,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
-    title = "Recent News"
-    subtitle = "Get the latest Updates for Betaflight"
+    enable = false
+    title = "News about Betaflight"
+    subtitle = "Betaflight is flight controller software (firmware) used to fly multi-rotor craft and fixed wing craft.<br/>This fork differs from Baseflight and Cleanflight in that it focuses on flight performance, leading-edge feature additions, and wide target support."
